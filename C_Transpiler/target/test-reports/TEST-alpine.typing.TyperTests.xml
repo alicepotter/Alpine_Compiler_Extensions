@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="tsf-452-wpa-2-047.epfl.ch" name="alpine.typing.TyperTests" tests="55" errors="0" failures="0" skipped="0" time="0.157" timestamp="2024-05-22T14:49:57">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2"/><property name="user.name" value="cassiomanuguerra"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vendor.version" value="Homebrew"/><property name="java.io.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/cassiomanuguerra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Homebrew"/><property name="scala.ext.dirs" value="/Users/cassiomanuguerra/.sbt/1.0/java9-rt-ext-homebrew_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.path" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Homebrew"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Zurich"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CH"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/cassiomanuguerra"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/ipcsocket"/><property name="swoval.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/swoval"/><property name="apple.awt.application.name" value="Boot"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="14.1.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="user.dir" value="/Users/cassiomanuguerra/Documents/BA6/CLP/compiler2024-labs-public/lab05_transpiler"/><property name="os.arch" value="aarch64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="alpine.typing.TyperTests" name="`visitRecord` should return the correct type of a #record(1) (3pts)" time="0.032">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecord` should return the correct type of a #record(1, 2) (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecord` should return the correct type of a #record(1, 2, 3) (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecord` should return the correct type of a #record(&quot;a&quot;, true) (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecord` should constrain on the type of a #record(1) (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecord` should constrain on the type of a #record(1, 2) (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecord` should constrain on the type of a #record(1, 2, 3) (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecord` should constrain on the type of a #record(&quot;a&quot;, true) (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitApplication` adds an apply constraint with a known function (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitApplication` sets the type of the application to the return type of the function (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitPrefixApplication` adds an apply constraint with a known function (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitPrefixApplication` adds a constraint on the output type of the application (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitInfixApplication` adds an apply constraint with a known function (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitInfixApplication` adds a constraint on the output type of the application (3pts)" time="0.018">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitConditional` should check that the condition is a boolean (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitConditional` should put an output type constraint on the conditional (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitLet` should put a constraint on the output (3pts)" time="0.005">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitLambda` should work as intended (3pts)" time="0.007">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitParenthesizedExpression` should add a constraint on the output type (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitAscribedExpression` should check if subtype for widening (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitAscribedExpression` should add a constraint that the type is optional if narrowing (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitAscribedExpression` should fail if not convertible if narrowing (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitAscribedExpression` should fail if not convertible if narrowing unconditionally (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitTypeIdentifier` should return the correct type of a type identifier (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitArrow` should return the correct type of an arrow (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitArrow` should return the correct type of an arrow (2) (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitParenthesizedType` should return the type that is inside the parentheses (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitRecordPattern` should return the correct type of a #record(1) (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="A wildcard pattern can take any type (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitFunction` should return the correct type of a function (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitSelection` should typecheck a selection with an identifier selectee (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="`visitSelection` should typecheck a selection with an integer selectee (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 1 (2pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 2 (playing with simple records) (2pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 2 (gcd function) (2pts)" time="0.008">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 3 (overloading) (2pts)" time="0.005">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 4 (overloading, bis) (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 5 (overloading on binary operators) (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 6 (overloading on unary operators) (2pts)" time="0.005">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="Default return type of function is unit (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 7 (conditionals) (2pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 8 (conditionals, bis) (2pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 9 (sum types) (2pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 10 (sum types, bis) (2pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 11 (applications) (2pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 12 (applications, bis) (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 13 (overloading functions) (2pts)" time="0.009">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 14 (incompatible return type) (2pts)" time="0.004">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 15 (selections) (2pts)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 16 (selections, bis) (2pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 17 (pattern matching) (2pts)" time="0.006">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 18 (pattern matching, bis) (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 19 (pattern matching on values) (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 20 (pattern matching with invalid patterns) (2pts)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.typing.TyperTests" name="General test 21 (pattern matching with wildcard) (2pts)" time="0.001">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

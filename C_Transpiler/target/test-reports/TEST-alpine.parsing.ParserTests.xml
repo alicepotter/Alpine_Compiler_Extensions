@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="tsf-452-wpa-2-047.epfl.ch" name="alpine.parsing.ParserTests" tests="113" errors="0" failures="0" skipped="0" time="0.077" timestamp="2024-05-22T14:49:57">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2"/><property name="user.name" value="cassiomanuguerra"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vendor.version" value="Homebrew"/><property name="java.io.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/cassiomanuguerra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Homebrew"/><property name="scala.ext.dirs" value="/Users/cassiomanuguerra/.sbt/1.0/java9-rt-ext-homebrew_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.path" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Homebrew"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Zurich"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CH"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/cassiomanuguerra"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/ipcsocket"/><property name="swoval.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/swoval"/><property name="apple.awt.application.name" value="Boot"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="14.1.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="user.dir" value="/Users/cassiomanuguerra/Documents/BA6/CLP/compiler2024-labs-public/lab05_transpiler"/><property name="os.arch" value="aarch64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses identifiers (0pt)" time="0.019">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses booleans (0pt)" time="0.005">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses integers (0pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses floats (0pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses strings (0pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a singleton record (1pt)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a record without labels and single argument (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a record with a labelled single argument  (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a record with multiple labelled arguments (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a record with multiple labelled and unlabelled arguments (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a record with multiple unlabelled arguments (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a conditional expression (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a match expression (1pt)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a let expression (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a parenthesized expression (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses a lambda function (1pt)" time="0.003">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`primaryExpression` parses an operator (0pt)" time="0.009">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`compoundExpression` can parse a selection with an int (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`compoundExpression` can parse a selection with an int (1pt)-1" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`compoundExpression` can parse an operator call (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`compoundExpression` can parse a function call (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`compoundExpression` can parse a function call with a label (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`compoundExpression` can parse a function call with multiple arguments (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`prefixExpression` can parse a - operator (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`prefixExpression` can parse a ! operator (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`prefixExpression` can parse a ~ operator (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`prefixExpression` does not parse a + and a literal if there is a space in between (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`prefixExpression` takes from a `compoundExpression (1pt)`" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`ascribed` can parse a widening type ascription (1pt)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`ascribed` can parse a unconditional type ascription (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`ascribed` can parse a narrowing type ascription (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`ascribed` takes from `prefixExpression (1pt)`" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`infixExpression` can parse a binary operation (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`infixExpression` can parse multiple operations with the same precedence (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`infixExpression` can parse multiple operations with different precedence (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`infixExpression` can parse multiple operations with different precedence (1pt)-1" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`infixExpression` can parse multiple operations with same precedence (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`infixExpression` takes from ascribed (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`labeled` works with expressions and a label (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`labeled` works with expressions and an unlabelled expression (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`labeled` works with expressions and a label and an unlabelled expression (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`labeled` works with keyword as a label (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`labeled` works with keyword as a label, bis (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`inParentheses` works with a single expression (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`inBraces` works with a single integer (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`inAngles` works with a single integer (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`inParentheses` works with expressions (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parenthesizedLabeledList` works with a single expression (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parenthesizedLabeledList` works with a single labeled expression (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parenthesizedLabeledList` works with a single labeled expression and an unlabelled expression (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parenthesizedLabeledList` works with no elements (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`tpe` works with a single type identifier (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`tpe` works with a sum of types (1pt)" time="0.004">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`tpe` works with a sum of types (1pt)-1" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`recordType` works with a singleton record type (1pt)" time="0.002">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`recordType` works with a singleton containing a single labelled type (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`recordType` works with a singleton containing a single non-labelled type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`recordType` works with a singleton multiple labelled types (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`recordType` works with a singleton multiple labelled and non-labelled types (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`arrowOrParenthesizedType` works with a single type (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`arrowOrParenthesizedType` works with arrow/lambda functions and single unlabelled argument (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`arrowOrParenthesizedType` works with arrow/lambda functions and single labelled argument (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`arrowOrParenthesizedType` works with arrow/lambda functions and multiple labelled and unlabelled arguments (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`arrowOrParenthesizedType` works with arrow/lambda functions and multiple labelled arguments (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`arrowOrParenthesizedType` works with arrow/lambda functions and multiple unlabelled arguments (1pt)" time="0.004">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with a single type (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with a sum of types (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with a record type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with a record type with a single labelled type (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with a record type with multiple labelled types (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with a record type with multiple labelled and unlabelled types (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with a parenthesized type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with an arrow/lambda function type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`typeDeclaration` works with an arrow/lambda function type with multiple labelled and unlabelled arguments (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`binding` works with no initializer when passed `initializerIsExpected = false (1pt)`" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`binding` reports when no initializer is found when passed `initializerIsExpected = true (1pt)`" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`binding` works with an initializer (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`binding` works with a type and no initializer when passed `initializerIsExpected = false (1pt)`" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`binding` reports when no initializer is found when passed `initializerIsExpected = true (1pt)`-1" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`binding` works with a type and an initializer (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`binding` uses `expression (1pt)`" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`let` works with a single binding (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`let` works with a binding and a type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parameter` works with a unlabelled typed parameter (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parameter` works with a labelled typed parameter (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parameter` works with a labelled non-typed parameter (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parameter` works with a unlabelled non-typed parameter (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`parameter` works with a label that is a keyword (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`valueParameterList` works with a single unlabelled parameter (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`valueParameterList` works with a single labelled parameter (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`valueParameterList` works with a single labelled parameter and a single unlabelled parameter (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`valueParameterList` works with a single unlabelled parameter and a single labelled parameter (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`function` works with a function with no arguments (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`function` works with a function with a single argument (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`function` works with a function with a single labelled argument (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`function` works with a function with a single labelled argument and a single unlabelled argument (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`function` body is parsed using `expression (1pt)`" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`function` also parses the optional return type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`mtch` parses correctly match with a single case (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`mtch` parses correctly match with different cases (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`mtch` parses correctly match with wildcard pattern (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses correctly a value pattern (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses correctly a wildcard pattern (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses correctly a binding pattern (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses correctly a binding with a type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` reports an error with a binding with an initializer (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses singleton record pattern (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses record pattern with a single labelled pattern (1pt)" time="0.001">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses record pattern with multiple labelled patterns (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses record pattern with multiple labelled and unlabelled patterns (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses also bindings (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses also bindings with a type (1pt)" time="0.0">
+                      
+                    </testcase><testcase classname="alpine.parsing.ParserTests" name="`pattern` parses a record with a binding and a value pattern (1pt)" time="0.0">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

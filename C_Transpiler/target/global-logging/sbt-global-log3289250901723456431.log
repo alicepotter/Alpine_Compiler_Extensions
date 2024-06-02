@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run -s ./test.al, Some(f9fa4dde-5038-4486-b854-8fceeff42b81), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/alicepotter/compiler2024-labs-public/lab05_transpiler/target/scala-3.3.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: /Users/alicepotter/compiler2024-labs-public/lab05_transpiler/src/main/scala/alpine/codegen/CPrinter.scala:197:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m197 |[0m                    context.output ++= [0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                expression expected but [31munindent[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/alicepotter/compiler2024-labs-public/lab05_transpiler/src/main/scala/alpine/codegen/CPrinter.scala:307:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m307 |[0m    [33mdef[0m [36mvisitAnyLiteral[0m([36mn[0m: alpine.ast.AnyLiteral)(using [36ma[0m: alpine.codegen.CPrinter.Context): [35mUnit[0m = [0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                           ^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mtype AnyLiteral is not a member of alpine.ast - did you mean ast.Literal?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/alicepotter/compiler2024-labs-public/lab05_transpiler/src/main/scala/alpine/codegen/CPrinter.scala:308:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m308 |[0m        a.output ++= makeAnyLiteral(n.value)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                     ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                     Not found: makeAnyLiteral[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 23 mai 2024, 17:37:51[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

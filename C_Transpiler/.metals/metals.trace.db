@@ -1,0 +1,87 @@
+2024-05-29 11:14:09.523395+02:00 database: flush
+org.h2.message.DbException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:401)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.FileStore.writeInBackground(FileStore.java:1842)
+	at org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2248)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 6 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+2024-05-29 11:16:53.018236+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données a été fermée
+The database has been closed [90098-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.engine.SessionLocal.getTransaction(SessionLocal.java:1610)
+	at org.h2.engine.SessionLocal.startStatementWithinTransaction(SessionLocal.java:1631)
+	at org.h2.command.Command.executeQuery(Command.java:186)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:131)
+	at scala.meta.internal.metals.JdbcEnrichments$XtensionConnection.query(JdbcEnrichments.scala:37)
+	at scala.meta.internal.metals.ChosenBuildTool.selectedBuildTool(ChosenBuildTool.scala:12)
+	at scala.meta.internal.metals.MetalsLspService.buildTool(MetalsLspService.scala:2085)
+	at scala.meta.internal.metals.MetalsLspService.connectToNewBuildServer(MetalsLspService.scala:2478)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$6(MetalsLspService.scala:2400)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$reconnect$3(BuildServerConnection.scala:487)
+	at scala.util.Success.foreach(Try.scala:268)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:481)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.h2.mvstore.MVStoreException: java.lang.OutOfMemoryError: Java heap space [2.2.224/3]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.MVStore.storeNow(MVStore.java:852)
+	at org.h2.mvstore.MVStore.store(MVStore.java:808)
+	at org.h2.mvstore.MVStore.tryCommit(MVStore.java:744)
+	at org.h2.mvstore.MVStore.tryCommit(MVStore.java:737)
+	at org.h2.mvstore.FileStore.writeInBackground(FileStore.java:1835)
+	at org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2248)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+2024-05-29 18:20:05.534275+02:00 database: could not close the database
+org.h2.message.DbException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.engine.Database.close(Database.java:1183)
+	at org.h2.engine.Database.onShutdown(Database.java:1159)
+	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 5 more
+Caused by: org.h2.message.DbException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:401)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.FileStore.writeInBackground(FileStore.java:1842)
+	at org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2248)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 6 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+2024-05-30 14:49:31.333078+02:00 database: flush
+org.h2.message.DbException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:401)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.FileStore.writeInBackground(FileStore.java:1842)
+	at org.h2.mvstore.FileStore$BackgroundWriterThread.run(FileStore.java:2248)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Mémoire insuffisante.
+Out of memory. [90108-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 6 more
+Caused by: java.lang.OutOfMemoryError: Java heap space

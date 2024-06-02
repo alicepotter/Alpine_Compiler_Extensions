@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="tsf-452-wpa-2-047.epfl.ch" name="alpine.transpiler.TranspilerTests" tests="20" errors="0" failures="4" skipped="0" time="24.014" timestamp="2024-05-22T14:49:57">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2"/><property name="user.name" value="cassiomanuguerra"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vendor.version" value="Homebrew"/><property name="java.io.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/cassiomanuguerra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Homebrew"/><property name="scala.ext.dirs" value="/Users/cassiomanuguerra/.sbt/1.0/java9-rt-ext-homebrew_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.path" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Homebrew"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Zurich"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CH"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/cassiomanuguerra"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/ipcsocket"/><property name="swoval.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/swoval"/><property name="apple.awt.application.name" value="Boot"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="14.1.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="user.dir" value="/Users/cassiomanuguerra/Documents/BA6/CLP/compiler2024-labs-public/lab05_transpiler"/><property name="os.arch" value="aarch64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="alpine.transpiler.TranspilerTests" name="Hello World should print Hello World (1pt)" time="1.143">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Printing the content of a top level let should print the value (1pt)" time="1.133">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Printing the return value of a function with no arguments returning a string should print the string (1pt)" time="0.827">
+                      <failure message="Exit code: 1
+
+-- stderr --
+[31m[31m-- Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:20 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXS[0m(): [35mString[0m  [31m&quot;koala42&quot;[0m
+[31m[31m  |[0m                    ^[0m
+[31m  |[0m              end of toplevel definition expected but string literal found
+[31m[31m-- [E067] Syntax Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:4 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXS[0m(): [35mString[0m  [31m&quot;koala42&quot;[0m
+[31m[31m  |[0m    ^[0m
+[31m  |[0mDeclaration of [33mmethod[0m [35m_fXS[0m not allowed here: only classes can have declared but undefined members
+2 errors found
+Errors encountered during compilation
+" type="alpine.transpiler.TranspilerUtils$Runner$ScalaRunError">Failed to run Scala: 
+Exit code: 1
+
+-- stderr --
+[31m[31m-- Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:20 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXS[0m(): [35mString[0m  [31m&quot;koala42&quot;[0m
+[31m[31m  |[0m                    ^[0m
+[31m  |[0m              end of toplevel definition expected but string literal found
+[31m[31m-- [E067] Syntax Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:4 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXS[0m(): [35mString[0m  [31m&quot;koala42&quot;[0m
+[31m[31m  |[0m    ^[0m
+[31m  |[0mDeclaration of [33mmethod[0m [35m_fXS[0m not allowed here: only classes can have declared but undefined members
+2 errors found
+Errors encountered during compilation
+
+	at alpine.transpiler.TranspilerUtils$Runner$ScalaRunError$.apply(TranspilerUtils.scala:47)
+	at alpine.transpiler.TranspilerUtils$Runner.run(TranspilerUtils.scala:75)
+	at alpine.transpiler.TranspilerTests.$anonfun$1(TranspilerTests.scala:27)
+	at scala.util.Either.flatMap(Either.scala:352)
+	at alpine.transpiler.TranspilerTests.runTestsFromFile$$anonfun$1$$anonfun$1(TranspilerTests.scala:27)
+</failure>
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Printing the return value of a function with no arguments returning an integer should print the integer (1pt)" time="0.832">
+                      <failure message="Exit code: 1
+
+-- stderr --
+[31m[31m-- Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:17 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXI[0m(): [35mInt[0m  [31m42[0m
+[31m[31m  |[0m                 ^[0m
+[31m  |[0m             end of toplevel definition expected but integer literal found
+[31m[31m-- [E067] Syntax Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:4 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXI[0m(): [35mInt[0m  [31m42[0m
+[31m[31m  |[0m    ^[0m
+[31m  |[0mDeclaration of [33mmethod[0m [35m_fXI[0m not allowed here: only classes can have declared but undefined members
+2 errors found
+Errors encountered during compilation
+" type="alpine.transpiler.TranspilerUtils$Runner$ScalaRunError">Failed to run Scala: 
+Exit code: 1
+
+-- stderr --
+[31m[31m-- Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:17 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXI[0m(): [35mInt[0m  [31m42[0m
+[31m[31m  |[0m                 ^[0m
+[31m  |[0m             end of toplevel definition expected but integer literal found
+[31m[31m-- [E067] Syntax Error: /var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/transpiler15005310300812252269/main.scala:1:4 [0m[0m
+[31m1 |[0m[33mdef[0m [36m_fXI[0m(): [35mInt[0m  [31m42[0m
+[31m[31m  |[0m    ^[0m
+[31m  |[0mDeclaration of [33mmethod[0m [35m_fXI[0m not allowed here: only classes can have declared but undefined members
+2 errors found
+Errors encountered during compilation
+
+	at alpine.transpiler.TranspilerUtils$Runner$ScalaRunError$.apply(TranspilerUtils.scala:47)
+	at alpine.transpiler.TranspilerUtils$Runner.run(TranspilerUtils.scala:75)
+	at alpine.transpiler.TranspilerTests.$anonfun$1(TranspilerTests.scala:27)
+	at scala.util.Either.flatMap(Either.scala:352)
+	at alpine.transpiler.TranspilerTests.runTestsFromFile$$anonfun$1$$anonfun$1(TranspilerTests.scala:27)
+</failure>
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Printing a value in a record, indexed by index, should print the value (2pt)" time="1.389">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Printing a value in a record, indexed by name, should print the value (2pt)" time="1.351">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Accessing a field of a record inside a record should work" time="1.55">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Multiple records can be accessed (2pts)" time="1.374">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Records fields are evaluated (2pts)" time="1.412">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Narrowing conditionally should return a #none if not a subtype (2pts)" time="0.002">
+                      <failure message="java.lang.Error: unexpected type '#some(Float)'" type="alpine.transpiler.TranspilerUtils$Runner$BackendError">Error from Alpine: 
+java.lang.Error: unexpected type '#some(Float)'
+	at alpine.transpiler.TranspilerUtils$Runner$BackendError$.apply(TranspilerUtils.scala:51)
+	at alpine.transpiler.TranspilerUtils$Runner.runAlpineTranspiler(TranspilerUtils.scala:92)
+	at alpine.transpiler.TranspilerTests.runTestsFromFile$$anonfun$1$$anonfun$1(TranspilerTests.scala:26)
+Caused by: java.lang.Error: unexpected type '#some(Float)'
+	at alpine.codegen.ScalaPrinter.visitAscribedExpression(ScalaPrinter.scala:409)
+	at alpine.codegen.ScalaPrinter.visitAscribedExpression(ScalaPrinter.scala:384)
+	at alpine.ast.AscribedExpression.visit(Trees.scala:711)
+	at alpine.codegen.ScalaPrinter.visitParenthesizedExpression(ScalaPrinter.scala:381)
+	at alpine.codegen.ScalaPrinter.visitParenthesizedExpression(ScalaPrinter.scala:377)
+	at alpine.ast.ParenthesizedExpression.visit(Trees.scala:694)
+	at alpine.codegen.ScalaPrinter.visitMatch(ScalaPrinter.scala:310)
+	at alpine.codegen.ScalaPrinter.visitMatch(ScalaPrinter.scala:307)
+	at alpine.ast.Match.visit(Trees.scala:574)
+	at alpine.codegen.ScalaPrinter.visitBinding$$anonfun$1(ScalaPrinter.scala:199)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at alpine.codegen.ScalaPrinter$Context.inScope(ScalaPrinter.scala:521)
+	at alpine.codegen.ScalaPrinter.visitBinding(ScalaPrinter.scala:199)
+	at alpine.codegen.ScalaPrinter.visitBinding(ScalaPrinter.scala:179)
+	at alpine.ast.Binding.visit(Trees.scala:166)
+	at alpine.codegen.ScalaPrinter.transpile$$anonfun$1(ScalaPrinter.scala:32)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at scala.IArray$package$IArray$.foreach(IArray.scala:123)
+	at alpine.codegen.ScalaPrinter.transpile(ScalaPrinter.scala:32)
+	at alpine.transpiler.TranspilerUtils$Runner.runAlpineTranspiler(TranspilerUtils.scala:89)
+	... 1 more
+</failure>
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Narrowing conditionally should return a #some if a subtype (2pts)" time="0.001">
+                      <failure message="java.lang.Error: unexpected type '#some(Int)'" type="alpine.transpiler.TranspilerUtils$Runner$BackendError">Error from Alpine: 
+java.lang.Error: unexpected type '#some(Int)'
+	at alpine.transpiler.TranspilerUtils$Runner$BackendError$.apply(TranspilerUtils.scala:51)
+	at alpine.transpiler.TranspilerUtils$Runner.runAlpineTranspiler(TranspilerUtils.scala:92)
+	at alpine.transpiler.TranspilerTests.runTestsFromFile$$anonfun$1$$anonfun$1(TranspilerTests.scala:26)
+Caused by: java.lang.Error: unexpected type '#some(Int)'
+	at alpine.codegen.ScalaPrinter.visitAscribedExpression(ScalaPrinter.scala:409)
+	at alpine.codegen.ScalaPrinter.visitAscribedExpression(ScalaPrinter.scala:384)
+	at alpine.ast.AscribedExpression.visit(Trees.scala:711)
+	at alpine.codegen.ScalaPrinter.visitParenthesizedExpression(ScalaPrinter.scala:381)
+	at alpine.codegen.ScalaPrinter.visitParenthesizedExpression(ScalaPrinter.scala:377)
+	at alpine.ast.ParenthesizedExpression.visit(Trees.scala:694)
+	at alpine.codegen.ScalaPrinter.visitMatch(ScalaPrinter.scala:310)
+	at alpine.codegen.ScalaPrinter.visitMatch(ScalaPrinter.scala:307)
+	at alpine.ast.Match.visit(Trees.scala:574)
+	at alpine.codegen.ScalaPrinter.visitBinding$$anonfun$1(ScalaPrinter.scala:199)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at alpine.codegen.ScalaPrinter$Context.inScope(ScalaPrinter.scala:521)
+	at alpine.codegen.ScalaPrinter.visitBinding(ScalaPrinter.scala:199)
+	at alpine.codegen.ScalaPrinter.visitBinding(ScalaPrinter.scala:179)
+	at alpine.ast.Binding.visit(Trees.scala:166)
+	at alpine.codegen.ScalaPrinter.transpile$$anonfun$1(ScalaPrinter.scala:32)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at scala.IArray$package$IArray$.foreach(IArray.scala:123)
+	at alpine.codegen.ScalaPrinter.transpile(ScalaPrinter.scala:32)
+	at alpine.transpiler.TranspilerUtils$Runner.runAlpineTranspiler(TranspilerUtils.scala:89)
+	... 1 more
+</failure>
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Narrowing unconditionally should work with valid cast (2pts)" time="1.234">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Narrowing unconditionally should panic with unvalid cast (2pts)" time="1.547">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Pattern matching with values (2pts)" time="1.407">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Pattern matching with wildcard (2pts)" time="1.512">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Pattern match on an identifier (1pt)" time="1.406">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Pattern matching with unconstrained binding (2pts)" time="1.502">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Pattern matching with constrained binding (2pts)" time="1.43">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Nested pattern matching (2pts)" time="1.518">
+                      
+                    </testcase><testcase classname="alpine.transpiler.TranspilerTests" name="Nested pattern matching and multiple lets (2pts)" time="1.444">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

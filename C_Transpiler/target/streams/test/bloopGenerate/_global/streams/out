@@ -1,0 +1,4 @@
+[debug] [lab05_transpiler-test] Classpath dependencies List()
+[debug] [lab05_transpiler-test] Dependencies from configurations List(lab05_transpiler)
+[debug] Bloop wrote the configuration of project 'lab05_transpiler-test' to '/Users/alicepotter/compiler2024-labs-public/lab05_transpiler/.bloop/lab05_transpiler-test.json'
+[success] Generated .bloop/lab05_transpiler-test.json

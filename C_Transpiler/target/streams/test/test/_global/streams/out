@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(InterpreterTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(alpine.transpiler.TranspilerTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(LexerTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(alpine.parsing.ParserTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SubstringTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AlgorithmsTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(alpine.typing.TyperTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 258, Failed 8, Errors 0, Passed 250[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AlgorithmsTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	alpine.parsing.ParserTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LexerTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	alpine.typing.TyperTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SubstringTests[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	alpine.transpiler.TranspilerTests[0m
+[0m[[0m[31merror[0m] [0m[0m	InterpreterTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

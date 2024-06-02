@@ -1,0 +1,10 @@
+1713433110002:test
+1713537335537:run -s ./test.al
+1713538162974:test
+1715949352616:run -s ./test.al
+1716382197647:test
+1716382232410:run -s ./test.al
+1716654147007:let x = ((1 @ Any) @! Int)\nlet main = print(x)
+1716654158210:run -s ./test.al
+1716737428290:$
+1716737430500:run -s ./test.al

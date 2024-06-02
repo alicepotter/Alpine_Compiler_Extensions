@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(5ddab48d-6e75-437a-a942-126168ca5189), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/cassiomanuguerra/Documents/BA6/CLP/compiler2024-labs-public/lab05_transpiler/target/scala-3.3.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 258, Failed 20, Errors 0, Passed 238[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	alpine.transpiler.TranspilerTests[0m
+[0m[[0m[31merror[0m] [0m[0m	InterpreterTests[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed 18 Apr 2024, 12:07:20[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

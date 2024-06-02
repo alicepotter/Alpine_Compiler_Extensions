@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="tsf-452-wpa-2-047.epfl.ch" name="InterpreterTests" tests="49" errors="0" failures="4" skipped="0" time="0.191" timestamp="2024-05-22T14:49:57">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2"/><property name="user.name" value="cassiomanuguerra"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vendor.version" value="Homebrew"/><property name="java.io.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/cassiomanuguerra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Homebrew"/><property name="scala.ext.dirs" value="/Users/cassiomanuguerra/.sbt/1.0/java9-rt-ext-homebrew_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.path" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Homebrew"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Zurich"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CH"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/cassiomanuguerra"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/ipcsocket"/><property name="swoval.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/swoval"/><property name="apple.awt.application.name" value="Boot"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="14.1.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="user.dir" value="/Users/cassiomanuguerra/Documents/BA6/CLP/compiler2024-labs-public/lab05_transpiler"/><property name="os.arch" value="aarch64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="InterpreterTests" name="Hello, World (3pts)!" time="0.073">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Parenthesized expressions are properly evaluated (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Parenthesized expressions are properly evaluated, bis (3pts)" time="0.025">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Record fields can be accessed (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Multiple records can be acccessed (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Records fields are evaluated (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Conditional expressions evaluates the correct branch (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Conditional expressions evaluate the condition (3pts)" time="0.007">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Conditional expressions have a proper result (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Function calls with no arguments (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Function calls with a single argument (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Function arguments are evaluated (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Function calls with multiple arguments (3pts)" time="0.005">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Lambda functions can be called (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Lambda functions capture the outer scope (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Infix application with 1 + 1 (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Infix application properly evaluates the LHS and RHS (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Prefix application with !true (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Prefix application with -42 (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Let bindings are properly evaluated (3pts)" time="0.005">
+                      <failure type="alpine.DiagnosticSet">alpine.DiagnosticSet
+</failure>
+                    </testcase><testcase classname="InterpreterTests" name="The first pattern that matches is branched into (2pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Exact match on a record is selected (2pts)" time="0.009">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Patterns are evaluated (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Bindings in pattern match are properly evaluated (2pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Scrutinee is properly evaluated (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="Lambda functions capture the closest outer scope (3pts)" time="0.004">
+                      <failure type="alpine.DiagnosticSet">alpine.DiagnosticSet
+</failure>
+                    </testcase><testcase classname="InterpreterTests" name="exit (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="print Boolean (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="print integer (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="print integer 2 (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="print float (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="print string (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="print record (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="lnot (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="land (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="inequality (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="equality (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="global constant (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="conditional (3pts)" time="0.0">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="selection (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="let (3pts)" time="0.0">
+                      <failure type="alpine.DiagnosticSet">alpine.DiagnosticSet
+</failure>
+                    </testcase><testcase classname="InterpreterTests" name="parenthesized (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="overloading (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="pattern matching with exact value (3pts)" time="0.003">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="pattern matching with exact record (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="pattern matching with wildcard (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="pattern matching with unconstrained binding (3pts)" time="0.001">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="pattern matching with constrained binding (3pts)" time="0.002">
+                      
+                    </testcase><testcase classname="InterpreterTests" name="lambda (3pts)" time="0.001">
+                      <failure type="alpine.DiagnosticSet">alpine.DiagnosticSet
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

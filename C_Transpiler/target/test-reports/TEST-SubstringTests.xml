@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="tsf-452-wpa-2-047.epfl.ch" name="SubstringTests" tests="9" errors="0" failures="0" skipped="0" time="0.029" timestamp="2024-05-22T14:49:57">
+          <properties>
+      <property name="java.specification.version" value="21"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="21.0.2"/><property name="user.name" value="cassiomanuguerra"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vendor.version" value="Homebrew"/><property name="java.io.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/"/><property name="java.version" value="21.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/cassiomanuguerra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Homebrew"/><property name="scala.ext.dirs" value="/Users/cassiomanuguerra/.sbt/1.0/java9-rt-ext-homebrew_21_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.path" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Homebrew"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Zurich"/><property name="java.vm.specification.version" value="21"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CH"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/cassiomanuguerra"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/ipcsocket"/><property name="swoval.tmpdir" value="/var/folders/tw/qhg2b44x643_hyndhj27v6lm0000gn/T/.sbtb0e12357/swoval"/><property name="apple.awt.application.name" value="Boot"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="14.1.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="user.dir" value="/Users/cassiomanuguerra/Documents/BA6/CLP/compiler2024-labs-public/lab05_transpiler"/><property name="os.arch" value="aarch64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="21.0.2"/><property name="java.class.version" value="65.0"/>
+    </properties>
+          <testcase classname="SubstringTests" name="isEmpty (0pt)" time="0.019">
+                      
+                    </testcase><testcase classname="SubstringTests" name="last (0pt)" time="0.002">
+                      
+                    </testcase><testcase classname="SubstringTests" name="drop (0pt)" time="0.003">
+                      
+                    </testcase><testcase classname="SubstringTests" name="startsWith (0pt)" time="0.002">
+                      
+                    </testcase><testcase classname="SubstringTests" name="equals[Substring] (0pt)" time="0.001">
+                      
+                    </testcase><testcase classname="SubstringTests" name="equals[String] (0pt)" time="0.001">
+                      
+                    </testcase><testcase classname="SubstringTests" name="hashCode (0pt)" time="0.001">
+                      
+                    </testcase><testcase classname="SubstringTests" name="toString (0pt)" time="0.0">
+                      
+                    </testcase><testcase classname="SubstringTests" name="toSubstring (0pt)" time="0.0">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

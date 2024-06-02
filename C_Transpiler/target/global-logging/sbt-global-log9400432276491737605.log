@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run -s ./test.al, Some(9860bc52-ecb7-4191-9e18-0112d2446c37), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/alicepotter/compiler2024-labs-public/lab05_transpiler/target/scala-3.3.1/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 25 mai 2024, 12:07:58[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

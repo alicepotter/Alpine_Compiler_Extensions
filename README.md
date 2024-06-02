@@ -1,2 +1,2 @@
-# Alpine_Compiler_Extensions
-CS-320 : Computer Language Processing, Project : Alpine Compiler Extensions 
+# Extending the Alpine Compiler
+CS-320 : Computer Language Processing, Alice Potter, Cassio Manuguerra, Jules Schneuwly

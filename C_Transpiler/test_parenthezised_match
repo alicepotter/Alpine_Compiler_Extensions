@@ -1,0 +1,9 @@
+let y = 3
+let x = match y {
+    case (3) then 1
+    case (2) then 0
+    case 1 then 2
+    case 3 then 3
+    case _ then 4
+}
+let main = print(x)

@@ -86,8 +86,11 @@ final class CPrinter(syntax: TypedProgram) extends ast.TreeVisitor[CPrinter.Cont
         context.initialOutput ++= "    return r;\n"
         context.initialOutput ++= "}\n"
         context.initialOutput ++= "\nInt add(Int x, Int y) {\n"
-        context.initialOutput ++= "    return (Int) {.payload = (void*) ((int)x.payload + (int)y.payload), .type = IntType };\n"
-        context.initialOutput ++= "}\n"
+        context.initialOutput ++= "    int sum = (*(int*)x.payload) + (*(int*)y.payload);"
+        context.initialOutput ++= "    int* sum_ptr = malloc(sizeof(int));"
+        context.initialOutput ++= "    *sum_ptr = sum;"
+        context.initialOutput ++= "    return (Int) {.payload = (void*)sum_ptr, .type = IntType};\n"
+        context.initialOutput ++= "}\n\n"
         context.initialOutput ++= "Any* typeToAny(void* payload, TypeEnum type) {\n"
         context.initialOutput ++= "    Any* a = malloc(sizeof(Any));\n"
         context.initialOutput ++= "    a->payload = payload;\n"
@@ -338,7 +341,7 @@ final class CPrinter(syntax: TypedProgram) extends ast.TreeVisitor[CPrinter.Cont
                     context.inMain = true
                     context.output ++= "initializeGlobals();\n"
                     n.initializer.get.visit(this)(using context)
-                    //context.output ++= ";\n\n"
+                    context.output ++= ";\n\n"
                     //context.output ++= "return 0;\n"
                     context.inMain = false
                     //context.output ++= "}\n"
@@ -509,7 +512,6 @@ final class CPrinter(syntax: TypedProgram) extends ast.TreeVisitor[CPrinter.Cont
                 } else {
                 if (context.isInFunction == false) {
                     context.initializeGlobals ++= "\n"
-                    //If it is a record, we need to compare the record name not the type
                     
                     c.head.pattern match
                         case ErrorTree(site) => 
@@ -720,44 +722,44 @@ final class CPrinter(syntax: TypedProgram) extends ast.TreeVisitor[CPrinter.Cont
                             case symbols.Type.Bool => 
                                 a.output ++= "\"%d\", (int)("
                                 n.arguments.head.value.visit(this) 
-                                a.output ++= ").payload);"
+                                a.output ++= ").payload)"
                             case symbols.Type.Int => 
                                 a.output ++= "\"%d\", (int)(" 
                                 n.arguments.head.value.visit(this) 
-                                a.output ++= ").payload);"
+                                a.output ++= ").payload)"
                             case symbols.Type.Float => 
                                 a.output ++= "\"%f\", *((float *)(" 
                                 n.arguments.head.value.visit(this) 
-                                a.output ++= ").payload));"
+                                a.output ++= ").payload))"
                             case symbols.Type.String => 
                                 a.output ++= "\"%s\", (char*)(" 
                                 n.arguments.head.value.visit(this) 
-                                a.output ++= ").payload);"
+                                a.output ++= ").payload)"
                             case symbols.Type.Any => 
                                 a.output ++= "if (" 
                                 n.arguments.head.value.visit(this) 
                                 a.output ++= ".type == IntType) {\n"
                                 a.output ++= "printf(\"%d\", (int)(" 
                                 n.arguments.head.value.visit(this) 
-                                a.output ++= ").payload);\n"
+                                a.output ++= ").payload)\n"
                                 a.output ++= "} else if (" 
                                 n.arguments.head.value.visit(this) 
                                 a.output ++= ".type == BooleanType) {\n"
                                 a.output ++= "printf(\"%d\", (int)(" 
                                 n.arguments.head.value.visit(this) 
-                                a.output ++= ").payload);\n"
+                                a.output ++= ").payload)\n"
                                 a.output ++= "} else if (" 
                                 n.arguments.head.value.visit(this) 
                                 a.output ++= ".type == FloatType) {\n"
                                 a.output ++= "printf(\"%f\", *((float *)(" 
                                 n.arguments.head.value.visit(this) 
-                                a.output ++=").payload));\n"
+                                a.output ++=").payload))\n"
                                 a.output ++= "} else if (" 
                                 n.arguments.head.value.visit(this) 
                                 a.output ++= ".type == StringType) {\n"
                                 a.output ++= "printf(\"%s\", (char*)(" 
                                 n.arguments.head.value.visit(this) 
-                                a.output ++= ").payload);\n"
+                                a.output ++= ").payload)\n"
                                 a.output ++= "}\n"
                                 
                             case _: Type => 
